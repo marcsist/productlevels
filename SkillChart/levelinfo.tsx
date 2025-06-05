@@ -177,7 +177,7 @@ export const levelDescriptions = [
   },
   { skill: 'Systems\u200B', 
     level: '5',
-    description: "Content Systems L5\n\nYou're reimaginging one of our larger content systems in a way that dramatically improves usability or helps Figma address new opportunities or challenges.\n\nWhen needed, you oversee the design and adoption of new messaging components for our design system."
+    description: "Content Systems L5\n\nYou're reimagining one of our larger content systems in a way that dramatically improves usability or helps Figma address new opportunities or challenges.\n\nWhen needed, you oversee the design and adoption of new messaging components for our design system."
   },
   { skill: 'Design', 
     level: '1',
