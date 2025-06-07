@@ -1,322 +1,386 @@
 export const levelDescriptions = [
-  { skill: 'Product', 
+  { skill: 'Research',
     level: '1',
-    description: "Product L1\n\nYou ask good questions to understand who you're building for and why.\n\nYou push for clarity and seek help if you don't get it.\n\nYou're starting to flag dependencies and edge cases and question requirements when you're unsure how they support real user needs."
+    description: "Research L1\n\nParticipates in research sessions, helps with synthesis\nAssists in drafting user surveys and interview questions\nShows eagerness to learn about different research methodologies"
   },
-  { skill: 'Product', 
+  { skill: 'Research',
     level: '2',
-    description: 'Product L2\n\nYou notice overlaps or dependencies between projects and escalate conversations to resolve them.\n\nYou build confidence in a direction with your eng/PM partners before acting.'
+    description: "Research L2\n\nAssists in planning research, begins to interpret findings independently\nParticipates actively in user testing and data collection\nStarts applying research insights to inform design decisions."
   },
-  { skill: 'Product', 
+  { skill: 'Research',
     level: '3',
-    description: "Product L3\n\nYou proactively address and resolve dependencies across team boundaries.\n\nYou drive your own team toward clarity on what you're building, why, and for whom."
+    description: "Research L3\n\nLeads small research initiatives, interprets findings to drive design\nCommunicates research findings clearly to the team\nDevelops empathy-driven insights to inform design direction."
   },
-  { skill: 'Product', 
+  { skill: 'Research',
     level: '4',
-    description: "Product L4\n\nYou handle very complex and ambiguous projects, defining requirements and prioritizing the most impactful workstreams even in the face of multiple competing demands."
+    description: "Research L4\n\nLeads end-to-end research, influences product decisions based on insights\nSelects appropriate methods to answer research questions effectively\nSynthesizes complex data into actionable insights for the team."
   },
-  { skill: 'Product', 
+  { skill: 'Research',
     level: '5',
-    description: "Product L5\n\nYou set the gold standard for problem definition; your ability to frame and scope projects are consistently clear, thoughtful, and compelling.\n\nYou coach other designers on prioritization, managing dependencies, and requirements definition."
+    description: "Research L5\n\nDefines research agendas, drives alignment around research insights\nLeads research planning that influences product strategies\nMentors others on conducting impactful user research."
   },
-  { skill: 'Research', 
+  { skill: 'Research',
+    level: '6',
+    description: "Research L6\n\nLeads research that affects entire product strategy, pushes for evidence-based changes\nBridges user needs with business goals through research\nEstablishes consistent research practices across teams."
+  },
+  { skill: 'Research',
+    level: '7',
+    description: "Research L7\n\nShapes research that informs multi-year product strategy\nIncorporates diverse methodologies to address complex design challenges\nEnsures research influences decisions at an organizational level."
+  },
+  { skill: 'Research',
+    level: '8',
+    description: "Research L8\n\nPushes the boundaries of how research can inform both strategy and innovation\nEstablishes new standards for research methodologies\nLeads research initiatives that drive company-wide changes."
+  },
+  { skill: 'Craft and delivery',
     level: '1',
-    description: "Research L1\n\nYou're building your knowledge of the competitive landscape by spending time with other tools (e.g. conducting audits).\n\nYou have a basic understanding of when and how to validate your work through research.\n\nYou ask about success metrics." 
+    description: "Craft and delivery L1\n\nLearns core design tools and processes, completes tasks with guidance\nSeeks feedback to improve design quality\nDemonstrates understanding of user-centered design principles."
   },
-  { skill: 'Research', 
+  { skill: 'Craft and delivery',
     level: '2',
-    description: "Research L2\n\nYour industry knowledge and understanding of our users starts to deepen and guide your own work.\n\nYou partner with research to define the questions to ask and problems to explore.\n\nYou're able to interpret metrics and make data-informed decisions."
+    description: "Craft and delivery L2\n\nDelivers quality design work on well-defined tasks\nEnsures consistency and cohesion in their designs\nUses established design patterns effectively."
   },
-  { skill: 'Research', 
+  { skill: 'Craft and delivery',
     level: '3',
-    description: "Research L3\n\nYou can do research to validate your own work if necessary.\n\nData guides your work, and you're able to suggest and question how to measure your work's success.\n\nYour comprehensive knowledge of industry design patterns deeply impacts your work."
+    description: "Craft and delivery L3\n\nConsistently delivers well-crafted designs, handles complex tasks\nExplores different approaches to solve design problems\nRefines designs based on usability testing feedback."
   },
-  { skill: 'Research', 
+  { skill: 'Craft and delivery',
     level: '4',
-    description: "Research L4\n\nYou know when data and research are missing, and garner them where appropriate to inform your work and the work of others.\n\nYou're an expert in Figma's product space; someone others on the team learn from and seek to emulate.\n\nYou surface new trends, patterns, and tools to the team regularly."
+    description: "Craft and delivery L4\n\nDelivers and improves high-quality designs, contributes to design systems\nLeads design work for complex features or projects\nAdvocates for design system use across the team to ensure consistency."
   },
-  { skill: 'Research', 
+  { skill: 'Craft and delivery',
     level: '5',
-    description: "Research L5\n\nYou partner with our leads in data and research to identify ways of improving Figma's overall practices around them.\n\nYou leverage your knowledge of the industry to define new patterns and norms when needed; your work has impact beyond Figma."
+    description: "Craft and delivery L5\n\nRaises the bar for design quality and consistency, contributes significantly to systems\nMentors junior designers in craft excellence\nDevelops reusable design components that elevate the overall product."
   },
-  { skill: 'Vision', 
+  { skill: 'Craft and delivery',
+    level: '6',
+    description: "Craft and delivery L6\n\nDrives innovation in design execution, champions new methods\nEnsures that designs are scalable and can be adapted across multiple contexts\nCollaborates to integrate new tools and methods into the design workflow."
+  },
+  { skill: 'Craft and delivery',
+    level: '7',
+    description: "Craft and delivery L7\n\nSets the standard for craft excellence, drives initiatives that evolve the practice\nExplores new techniques to enhance user experience\nActs as a quality gatekeeper for key design projects across the org."
+  },
+  { skill: 'Craft and delivery',
+    level: '8',
+    description: "Craft and delivery L8\n\nDevelops new frameworks or methodologies for design, recognized for craft mastery\nPioneers techniques that set a new bar for design quality\nCollaborates with industry peers to share best practices."
+  },
+  { skill: 'Strategy',
     level: '1',
-    description: "Vision L1\n\nYou participate in vision activities by generating ideas and helping mock up/frame concepts."
+    description: "Strategy L1\n\nLearns to understand basic strategic goals in their projects; follows directions\nDemonstrates curiosity about broader product objectives\nSeeks opportunities to learn from senior team members."
   },
-  { skill: 'Vision', 
+  { skill: 'Strategy',
     level: '2',
-    description: "Vision L2\n\nYou assist PMs and more senior designers/writers in bringing larger strategic vision work to life (e.g. by creating mocks, designing decks, and writing documents)."
+    description: "Strategy L2\n\nUnderstands and contributes to team-level strategic objectives\nBegins to proactively identify opportunities for design improvement\nCommunicates design choices effectively to stakeholders."
   },
-  { skill: 'Vision', 
+  { skill: 'Strategy',
     level: '3',
-    description: "Vision L3\n\nYou're starting to develop your own POV; you're trusted to own parts of larger strategic vision, working independently or partnering with others to bring the vision to life.\n\nYou proactively organize sprints or other processes to further define vision if it's otherwise lacking."
+    description: "Strategy L3\n\nUnderstands broader business goals, supports strategic initiatives\nTakes ownership of aligning design work with team strategy\nDemonstrates ability to drive design initiatives that support business outcomes."
   },
-  { skill: 'Vision', 
+  { skill: 'Strategy',
     level: '4',
-    description: "Vision L4\n\nYou set the vision for your area—solo or with another senior designer/writer—and it's inspiring and motivating to others.\n\nYou advocate for your POV at all levels of the organization (e.g. to executives) and can leverage data, storytelling, and visual design to bring stakeholders along."
+    description: "Strategy L4\n\nTranslates business strategy into design tactics; supports strategic planning\nAnticipates potential challenges in the project and proposes solutions\nInfluences product strategy by advocating for user needs."
   },
-  { skill: 'Vision', 
+  { skill: 'Strategy',
     level: '5',
-    description: "Vision L5\n\nYou uplevel other designers' and writers' vision work, and are entrusted to drive vision for the broadest, farthest-looking projects in the organization.\n\nYou help define what's next for Figma—as a product, a business, and a company."
+    description: "Strategy L5\n\nShapes strategy for product area, defines design approaches to meet goals\nAligns design solutions with business objectives to ensure measurable impact\nMentors other designers in understanding the strategic impact of their work."
   },
-  { skill: 'Visual', 
+  { skill: 'Strategy',
+    level: '6',
+    description: "Strategy L6\n\nCrafts strategic frameworks, sees beyond immediate project needs\nBalances long-term strategic direction with immediate business needs\nGuides cross-functional teams towards cohesive strategic execution."
+  },
+  { skill: 'Strategy',
+    level: '7',
+    description: "Strategy L7\n\nDefines strategic direction across product areas, aligns design with broader company goals\nWorks with leadership to align product strategy with user-centered design\nIdentifies cross-functional opportunities to improve design and product alignment."
+  },
+  { skill: 'Strategy',
+    level: '8',
+    description: "Strategy L8\n\nActs as a thought leader on strategic direction, influencing company-level decisions\nShapes company vision by integrating design strategy at all levels\nLeads initiatives that redefine how design adds strategic value across the organization."
+  },
+  { skill: 'Leadership',
     level: '1',
-    description: "Visual L1\n\nYou reference industry patterns in your work and are building your knowledge of Figma's design system.\n\nYou explore multiple solutions for problems, leveraging our design system for components and styles.Your designs strive for consistency with patterns throughout the product."
+    description: "Leadership L1\n\nNo formal leadership, focuses on self-development\nDemonstrates initiative in small, low-risk areas\nSeeks out learning opportunities."
   },
-  { skill: 'Visual', 
+  { skill: 'Leadership',
     level: '2',
-    description: "Visual L2\n\nYou explore a wide breath of design options and articulate trade-offs with each.\n\nYou use industry patterns but know when something doesn't work and can be pushed further.\n\nYou are building your understanding on where our system can flex to accommodate certain needs."
+    description: "Leadership L2\n\nTakes responsibility for small projects or parts of larger ones\nGuides interns or junior designers informally\nManages feedback loops effectively."
   },
-  { skill: 'Visual', 
+  { skill: 'Leadership',
     level: '3',
-    description: "Visual L3\n\nYour work has few visual issues.\n\nYou start to form tenets as you design and fall back on them to help make decisions.\n\nYou consider all constraints (like dark mode and localization).\n\nYour work is thorough and complete when it comes to all interaction details (like hover/focus and shortcuts)."
+    description: "Leadership L3\n\nLeads small initiatives, able to plan and execute them\nShows confidence in guiding project direction\nSupports junior team members with their development."
   },
-  { skill: 'Visual', 
+  { skill: 'Leadership',
     level: '4',
-    description: "Visual L4\n\nYou work is thorough and complete with edge cases fully thought out—a model of accuracy and precision.\n\nYou consider how your work and patterns can be utilized by others.\n\nYou are the owner for the design system of your focus area and effectively partner with the design systems team on the standards."
+    description: "Leadership L4\n\nGuides project teams, manages complexity\nEncourages a growth mindset within the team\nLeads critiques and facilitates feedback."
   },
-  { skill: 'Visual', 
+  { skill: 'Leadership',
     level: '5',
-    description: "Visual L5\n\nYou see gaps in how our visual system works and help uplevel it.\n\nWhen necessary, you define new patterns and changes to the underlying system.\n\nYour peers look to you for your help and guidance on visual design, and you regularly offer feedback to improve work outside your own."
+    description: "Leadership L5\n\nLeads multiple projects, guides teams through ambiguity\nSets clear expectations and outcomes for team efforts\nDevelops the skills of others through mentoring."
   },
-  { skill: 'Interaction', 
+  { skill: 'Leadership',
+    level: '6',
+    description: "Leadership L6\n\nCoaches others in tackling complex challenges, leads through vision\nBuilds confidence within the team by setting direction\nActs as a role model for leadership behaviors."
+  },
+  { skill: 'Leadership',
+    level: '7',
+    description: "Leadership L7\n\nMentors and grows senior design talent, leads through influence\nIdentifies leadership opportunities for others\nSupports strategic initiatives that impact multiple teams."
+  },
+  { skill: 'Leadership',
+    level: '8',
+    description: "Leadership L8\n\nCoaches principal designers, extends influence through public speaking or published work\nCreates environments that foster growth and leadership in others\nPlays a key role in defining company culture."
+  },
+  { skill: 'Impact',
     level: '1',
-    description: "Interaction L1\n\nYou start to prototype your ideas to bring work to life and illustrate flows more clearly.\n\nYou're eager to learn new tools and practices to improve the fidelity of your ideas."
+    description: "Impact L1\n\nLimited to immediate design tasks and local scope\nFocuses on learning the tools and processes effectively\nContributes small but meaningful pieces to projects."
   },
-  { skill: 'Interaction', 
+  { skill: 'Impact',
     level: '2',
-    description: "Interaction L2\n\nYou go beyond click-through prototypes and incorporate animations and transitions across various interactions.\n\nYou are familiar with common industry interaction patterns and reference them in your work.\n\nYour prototypes start to feel more like the “real thing” and are higher fidelity overall."
+    description: "Impact L2\n\nContributes to team outcomes, designs directly impacting user experience\nRecognizes the role of their work in product success\nDemonstrates ownership over assigned design areas."
   },
-  { skill: 'Interaction', 
+  { skill: 'Impact',
     level: '3',
-    description: "Interaction L3\n\nYou prototype fluently and quickly and you get helpful feedback from collaborators with them.\n\nYour work is thorough and complete when it comes to all interaction details (like hover/focus and keyboard shortcuts)."
+    description: "Impact L3\n\nImpact visible within projects, contributes to solving user and business problems\nHelps to measure success against user and product metrics\nDelivers work that enhances user satisfaction and experience."
   },
-  { skill: 'Interaction', 
+  { skill: 'Impact',
     level: '4',
-    description: "Interaction L4\n\nYou prototype with intentionality and know when to utilize prototypes to effectively communicate your ideas.\n\nYou are well-versed in common industry interaction patterns and their nuances across platforms.\n\nYour prototypes help teams make business decisions."
-  }, 
-  { skill: 'Interaction', 
-    level: '5',
-    description: "Interaction L5\n\nYour interaction work defines the bar not just at Figma, but in the industry.\n\nYour peers look to you for guidance and feedback on improving their interaction work, and you proactively spot interaction issues and offer corrections.\n\nYou create frameworks and prototypes that inspire other people to do the same."
+    description: "Impact L4\n\nTangible business or user impact, often across a product area\nIdentifies how design solutions can optimize business metrics\nTakes accountability for delivering business value through design."
   },
-  { skill: 'Systems', 
+  { skill: 'Impact',
+    level: '5',
+    description: "Impact L5\n\nHas substantial influence on product and user outcomes, affecting multiple features\nGuides teams to achieve impactful design outcomes\nAligns personal and team impact with company goals."
+  },
+  { skill: 'Impact',
+    level: '6',
+    description: "Impact L6\n\nMajor impact on product direction, influences cross-functional planning\nAdvocates for a clear vision of design's role in achieving business success\nDelivers design outcomes with measurable, strategic value."
+  },
+  { skill: 'Impact',
+    level: '7',
+    description: "Impact L7\n\nImpacts product vision at the org level, affects company-wide outcomes\nEncourages teams to set ambitious impact goals\nProactively seeks out high-impact opportunities for design."
+  },
+  { skill: 'Impact',
+    level: '8',
+    description: "Impact L8\n\nShapes the future direction of the company’s products and vision\nSets initiatives that shift the company's competitive position\nActs as a driving force for innovative, impactful design solutions."
+  },
+  { skill: 'Domain Ownership',
     level: '1',
-    description: "Systems L1\n\nYou operate within a well-defined part of a complex system given documentation, and you ask for help when you need it.\n\nYou operate within a well-defined part of a complex system given documentation, and you ask for help when you need it.\n\nYou methodically investigate or audit part of a system, and summarize findings."
+    description: "Domain Ownership L1\n\nUnderstands domain context and asks clarifying questions.\nConnects design tasks to team goals.\nLooks for ways to improve outcomes within scope."
   },
-  { skill: 'Systems', 
+  { skill: 'Domain Ownership',
     level: '2',
-    description: "Systems L2\n\nYou consider edge cases when designing for complex systems.\n\nYou document part of the complex system and onboard other people."
+    description: "Domain Ownership L2\n\nBuilds domain knowledge and applies it to elevate quality.\nAligns work with user needs and team priorities.\nProposes improvements that support business outcomes."
   },
-  { skill: 'Systems', 
+  { skill: 'Domain Ownership',
     level: '3',
-    description: "Systems L3\n\nYour designs are holistic and consider complex cases of existing systems.\n\nYou can recall internal properties/style guides of systems and explain them to stakeholders.\n\nYou are comfortable collaborating with engineering and PM to understand a system completely and improve it."
+    description: "Domain Ownership L3\n\nOwns a product area and ensures alignment to team goals.\nCommunicates how work supports user and business value.\nAnticipates gaps or opportunities in domain coverage."
   },
-  { skill: 'Systems', 
+  { skill: 'Domain Ownership',
     level: '4',
-    description: "Systems L4\n\nYou aim to simplify and unify systems when appropriate to tame complexity—you can justify exceptions to the system and understand/explain their consequences.\n\nYou are comfortable making decisions without the system being documented.\n\nYou proactively bring up IA improvements opportunities across Figma."
+    description: "Domain Ownership L4\n\nLeads initiatives that advance domain impact.\nIdentifies opportunities where design supports broader goals.\nCollaborates across functions to ensure cohesive delivery."
   },
-  { skill: 'Systems', 
+  { skill: 'Domain Ownership',
     level: '5',
-    description: "Systems L5\n\nYour work defines and documents new complex systems for others to use, while retaining systemic simplicity.\n\nYou see connections between systems (e.g. design systems and typography) and can lead projects to bring them together.\n\nYou uncover systemic IA interaction issues and advocate for specific improvements."
+    description: "Domain Ownership L5\n\nDrives improvements that align with department priorities.\nGuides team toward shared business outcomes.\nBuilds cross-functional trust through delivery and influence."
   },
-  { skill: 'Content', 
+  { skill: 'Domain Ownership',
+    level: '6',
+    description: "Domain Ownership L6\n\nShapes strategy across domains by prioritizing business impact.\nTranslates insight into action across teams.\nCoaches others on domain thinking and ownership."
+  },
+  { skill: 'Domain Ownership',
+    level: '7',
+    description: "Domain Ownership L7\n\nDefines opportunities across the org where design adds value.\nLeads programs tied to strategic objectives.\nEnables others to operate at a higher level of ownership."
+  },
+  { skill: 'Domain Ownership',
+    level: '8',
+    description: "Domain Ownership L8\n\nAligns design strategy to executive priorities.\nPartners cross-functionally to realize business opportunities.\nCreates scalable systems for domain accountability."
+  },
+  { skill: 'User-Centered Problem Solving',
     level: '1',
-    description: "Content L1\n\nYou can articulate key user needs for your features.\n\nYou clarify messaging goals when kicking off a project.\n\nYou use relevant messaging frameworks to shape copy. "
+    description: "User-Centered Problem Solving L1\n\nUnderstands the user problem their work supports and asks clarifying questions.\nApplies usability principles and common patterns to support clarity and flow.\nSeeks feedback to refine and improve the quality of their design solutions."
   },
-  { skill: 'Content', 
+  { skill: 'User-Centered Problem Solving',
     level: '2',
-    description: "Content L2\n\nYou work with marketing to craft clear, compelling value props for your features.\n\nYou can always define what matters most in complex product moments."
+    description: "User-Centered Problem Solving L2\n\nFrames user problems with clarity and explores multiple possible solutions.\nDesigns for usability, edge cases, and task completion with increasing autonomy.\nIterates based on feedback and usability signals to improve solution quality."
   },
-  { skill: 'Content', 
+  { skill: 'User-Centered Problem Solving',
     level: '3',
-    description: "Content L3\n\nYou establish content principles for your product area, and use them to make better writing decisions.\n\nYou're able to navigate situations when user needs and business goals are in conflict.\n\nYou resolve moments when design or engineering constraints are interfering with effective messaging."
+    description: "User-Centered Problem Solving L3\n\nIdentifies underlying user needs and prioritizes solving them effectively.\nSimplifies complex problems through clear, structured design solutions.\nCollaborates with PMs and engineers to deliver viable, user-centered outcomes."
   },
-  { skill: 'Content', 
+  { skill: 'User-Centered Problem Solving',
     level: '4',
-    description: "Content L4\n\nYou identify and drive content-led projects (ex: experiments around language, terminology overhauls).\n\nYou evolve the way Figma talks about itself and its products.\n\nYou document your approach so writers and marketers can learn from you."
+    description: "User-Centered Problem Solving L4\n\nLeads discovery to uncover user pain points and define high-value problems.\nDelivers elegant solutions that improve task efficiency and product clarity.\nChampions quality and clarity throughout the product development process."
   },
-  { skill: 'Content', 
+  { skill: 'User-Centered Problem Solving',
     level: '5',
-    description: "Content L5\n\nYou lead content strategy initiatives that have a large, measurable impact on Figma's success.\n\nYou actively mentor junior writers on content strategy, helping them understand and connect with audiences in deeper ways."
+    description: "User-Centered Problem Solving L5\n\nShapes solution direction for a product area by connecting user insights to business needs.\nBalances simplicity and flexibility in systems or workflows.\nGuides others in framing, refining, and validating solutions that scale."
   },
-  { skill: 'Copywriting', 
+  { skill: 'User-Centered Problem Solving',
+    level: '6',
+    description: "User-Centered Problem Solving L6\n\nElevates the quality of design solutions across domains by identifying high-leverage problems.\nDrives simplification and product usability improvements that increase adoption and efficiency.\nCoaches teams in structured problem solving and principled trade-offs."
+  },
+  { skill: 'User-Centered Problem Solving',
+    level: '7',
+    description: "User-Centered Problem Solving L7\n\nInfluences how the org defines and solves user problems at scale.\nDrives solution quality across product surfaces by embedding usability and clarity into systems.\nEstablishes standards and patterns for solving recurring product challenges."
+  },
+  { skill: 'User-Centered Problem Solving',
+    level: '8',
+    description: "User-Centered Problem Solving L8\n\nShapes the company’s product design philosophy around clear, usable, and scalable solutions.\nLeads initiatives that redefine how complex user needs are solved across domains.\nShares frameworks and thought leadership that influence industry standards for user-centered problem solving."
+  },
+  { skill: 'Interaction Design & Prototyping',
     level: '1',
-    description: "Copywriting L1\n\nYour writing is concise and clear.\n\nYou understand Figma's voice and can shift your tone depending on the situation and audience.\n\nYour final work is always free of typos and grammar issues."
+    description: "Interaction Design & Prototyping L1\n\nLearns basic interaction principles and creates simple prototypes under guidance\nSeeks feedback to refine interactions\nUses prototyping to explore different solutions."
   },
-  { skill: 'Copywriting', 
+  { skill: 'Interaction Design & Prototyping',
     level: '2',
-    description: "Copywriting L2\n\nYou explore a range of options—from plain to playful—when drafting copy, and can articulate trade-offs of each.\n\nYou know when your copy still needs a few more passes. "
+    description: "Interaction Design & Prototyping L2\n\nDesigns effective user interactions, builds low-fidelity prototypes to validate ideas\nUses prototypes to communicate ideas to stakeholders\nIterates quickly based on testing outcomes."
   },
-  { skill: 'Copywriting', 
+  { skill: 'Interaction Design & Prototyping',
     level: '3',
-    description: "Copywriting L3\n\nYou use vocabulary, variety, and cadence to make your writing more compelling and memorable.\n\nYou know when and why to break writing rules or take risks with bolder copy. You're able to explain the rationale for riskier copy to stakeholders."
+    description: "Interaction Design & Prototyping L3\n\nDelivers high-quality prototypes that effectively represent user interaction flows\nCollaborates closely with engineers to ensure feasibility\nUses prototypes to validate and iterate on key user flows and improve design quality."
   },
-  { skill: 'Copywriting', 
+  { skill: 'Interaction Design & Prototyping',
     level: '4',
-    description: "Copywriting L4\n\nYou define Figma's voice and extend it where needed.\n\nYou create voice resources that help writers find the right words for different product moments.\n\nYou evangelize the value of great copywriting in the design org and beyond. "
+    description: "Interaction Design & Prototyping L4\n\nDevelops and tests complex interaction models, leads prototyping for key features\nSelects appropriate tools to best demonstrate interactions\nEstablishes prototyping as an integral part of the design process."
   },
-  { skill: 'Copywriting', 
+  { skill: 'Interaction Design & Prototyping',
     level: '5',
-    description: "Copywriting L5\n\nYou're building processes or guidelines to uplevel writing across Figma.\n\nIn a pinch, you can write flawless, flowing copy without input from other writers.\n\nYour peers rely on your wordsmithing guidance, and you work directly with writers and cross-functional partners to improve their writing abilities. "
+    description: "Interaction Design & Prototyping L5\n\nChampions the use of prototyping to solve challenging interaction problems, communicates with stakeholders effectively\nGuides others in creating meaningful prototypes that inform design decisions\nAdvocates for interactive exploration during concept development."
   },
-  { skill: 'Systems\u200B', 
+  { skill: 'Interaction Design & Prototyping',
+    level: '6',
+    description: "Interaction Design & Prototyping L6\n\nSets best practices for prototyping and interaction design within the team\nUses prototypes to validate hypotheses and usability\nBalances innovation with practicality in prototyping approaches."
+  },
+  { skill: 'Interaction Design & Prototyping',
+    level: '7',
+    description: "Interaction Design & Prototyping L7\n\nDrives innovation in interaction design, setting standards for prototyping organization-wide\nEnsures prototypes effectively address user experience goals\nGuides the team to adopt a culture of rapid prototyping."
+  },
+  { skill: 'Interaction Design & Prototyping',
+    level: '8',
+    description: "Interaction Design & Prototyping L8\n\nDevelops new methods for rapid prototyping, influences interaction models across the product\nLeads initiatives that leverage prototyping for strategic exploration\nBridges the gap between product and engineering through effective interaction models."
+  },
+  { skill: 'Visual Design & Aesthetics',
     level: '1',
-    description: "Content Systems L1\n\nYou audit Figma's features and borrow copy patterns and terminology to ensure consistency.\n\nYour work adheres to Figma's UX writing style guide and the company-wide style guide."
+    description: "Visual Design & Aesthetics L1\n\nUnderstands basic UI design principles, follows established patterns\nExperiments with visual elements under guidance\nFocuses on consistency within a given project."
   },
-  { skill: 'Systems\u200B', 
+  { skill: 'Visual Design & Aesthetics',
     level: '2',
-    description: "Content Systems L2\n\nYou're familiar with industry copy patterns, accessibility guidelines, and localization best practices.\n\nYou flag Figma's content patterns that need improvement or make our products harder to use.\n\nYou contribute to the UX writing style guide."
+    description: "Visual Design & Aesthetics L2\n\nDelivers visually consistent UI components, ensures adherence to brand guidelines\nApplies design principles to achieve balanced and aesthetic outcomes\nUnderstands the role of visual design in user experience."
   },
-  { skill: 'Systems\u200B', 
+  { skill: 'Visual Design & Aesthetics',
     level: '3',
-    description: "Content Systems L3\n\nYou're fluent in platform-specific copy conventions.\n\nYou work with designers to fix content patterns in our design system that make Figma harder to use.\n\nYou know how to use different kinds of notifications (ex: email, in-product) in effective, user-friendly ways."
+    description: "Visual Design & Aesthetics L3\n\nInnovates within established visual design systems, ensures high aesthetic quality\nPushes the brand visual language while maintaining consistency\nAdvocates for visual cohesion across the product suite."
   },
-  { skill: 'Systems\u200B', 
+  { skill: 'Visual Design & Aesthetics',
     level: '4',
-    description: "Content Systems L4\n\nYou're working with writers outside of design to shape Figma's writing standards.\n\nYou're making measurable improvements to one of our content systems (ex: onboarding, notifications).\n\nYou're knowledgeable about content tooling, and advocate for products that would improve our process and boost consistency."
+    description: "Visual Design & Aesthetics L4\n\nDefines and improves visual design patterns, contributes to design system evolution\nEstablishes standards for visual excellence across the product\nProactively identifies areas for visual improvement."
   },
-  { skill: 'Systems\u200B', 
+  { skill: 'Visual Design & Aesthetics',
     level: '5',
-    description: "Content Systems L5\n\nYou're reimaginging one of our larger content systems in a way that dramatically improves usability or helps Figma address new opportunities or challenges.\n\nWhen needed, you oversee the design and adoption of new messaging components for our design system."
+    description: "Visual Design & Aesthetics L5\n\nDrives visual design excellence, evolves brand expression across products\nBalances business and user needs with visual innovation\nWorks on projects that define or evolve the product's visual direction."
   },
-  { skill: 'Design', 
+  { skill: 'Visual Design & Aesthetics',
+    level: '6',
+    description: "Visual Design & Aesthetics L6\n\nSets direction for visual identity, ensures scalability of visual systems\nMentors others on achieving high standards of visual design\nUses data to refine and improve the product's visual design."
+  },
+  { skill: 'Visual Design & Aesthetics',
+    level: '7',
+    description: "Visual Design & Aesthetics L7\n\nShapes the overall visual language, leads brand evolution initiatives\nAligns visual strategy with broader product and business goals\nDefines principles that guide the evolution of the visual identity."
+  },
+  { skill: 'Visual Design & Aesthetics',
+    level: '8',
+    description: "Visual Design & Aesthetics L8\n\nLeads the evolution of visual identity at a company-wide level, recognized for aesthetic vision\nCreates frameworks for cross-team visual consistency\nAdvocates for and integrates visual design into strategic discussions."
+  },
+  { skill: 'Design Systems',
     level: '1',
-    description: "Design L1\n\nYou're actively learning about core Figma UI design features.\n\nYou use elements from Figma's design system (ex: visual bells, confirmation modals, tooltips) to show copy options in context."
+    description: "Design Systems L1\n\nLearns about design system components, contributes to documentation\nReuses existing components effectively\nUnderstands the importance of consistency."
   },
-  { skill: 'Design',
+  { skill: 'Design Systems',
     level: '2',
-    description: "Design L2\n\nYou're familiar with industry interaction patterns and give designers feedback on interaction and visual design. You troubleshoot moments when poor information hierarchy hinders readability. You flag situations when copy can't fix underlying design issues."
+    description: "Design Systems L2\n\nContributes to building and maintaining the design system\nIdentifies inconsistencies and proposes solutions\nAssists in documenting components and guidelines."
   },
-  { skill: 'Design', 
+  { skill: 'Design Systems',
     level: '3',
-    description: "Design L3\n\nYou contribute design riffs to features.\n\nYou're comfortable building and rewiring prototypes in Figma.\n\nYou're skilled at interaction design problem-solving and can troubleshoot common UX issues."
+    description: "Design Systems L3\n\nImproves design system components, ensures usability across platforms\nDevelops new components under guidance\nCollaborates with engineering to maintain system quality."
   },
-  { skill: 'Design', 
+  { skill: 'Design Systems',
     level: '4',
-    description: "Design L4\n\nYour interaction ideas consistently shape the final designs.\n\nYou're able to do more complex design tasks in Figma design (ex: building copy components, adding auto layout to mocks).\n\nYou're expanding your UI design skills into more advanced realms via classes, tutorials, or design mentorship."
+    description: "Design Systems L4\n\nOversees design system health, integrates new components\nBalances usability needs with consistency requirements\nProvides guidance on using the design system effectively."
   },
-  { skill: 'Design', 
+  { skill: 'Design Systems',
     level: '5',
-    description: "Design L5\n\nYour own design work is complete and well-crafted enough that you could serve as the designer for simpler features or flows.\n\nYou uplevel the writing team's UI design skills."
+    description: "Design Systems L5\n\nLeads design system initiatives, ensures consistency and scalability\nDefines standards for component creation and usage\nWorks closely with engineers to implement new components effectively."
   },
-  { skill: 'Communication', 
+  { skill: 'Design Systems',
+    level: '6',
+    description: "Design Systems L6\n\nDevelops and evolves design systems, maintains alignment across teams\nAdvocates for the use of the design system to improve efficiency\nRefines system based on user feedback and changing product needs."
+  },
+  { skill: 'Design Systems',
+    level: '7',
+    description: "Design Systems L7\n\nDefines and promotes design system strategy across the organization\nCollaborates across teams to ensure design system adoption\nSets the vision for the evolution of the system in alignment with product needs."
+  },
+  { skill: 'Design Systems',
+    level: '8',
+    description: "Design Systems L8\n\nInnovates design system practices, sets new standards for scalability and integration\nEstablishes cross-functional processes for evolving the system\nLeads initiatives that enhance the efficiency and reach of the design system."
+  },
+  { skill: 'Content Strategy & Messaging',
     level: '1',
-    description: "Communication L1\n\nYou're responsive, pleasant, and proactive in your communication across all channels.\n\nYou present your work in crit clearly in a way others can understand.\n\nYour design documentation is easy to follow, and you participate regularly in conversations at the team level."
+    description: "Content Strategy & Messaging L1\n\nAssists in drafting content, learns about tone and voice\nFollows established content guidelines\nBegins learning about the audience needs."
   },
-  { skill: 'Communication', 
+  { skill: 'Content Strategy & Messaging',
     level: '2',
-    description: "Communication L2\n\nYou're growing your storytelling abilities; your presentations have a clear narrative, good context setting, and you're building your skills at leading meetings confidently and effectively.\n\nYour written communication is clear and concise."
+    description: "Content Strategy & Messaging L2\n\nDrafts content with guidance, supports consistency in messaging\nEnsures that content meets product and user needs\nStarts contributing to content audits and analysis."
   },
-  { skill: 'Communication', 
+  { skill: 'Content Strategy & Messaging',
     level: '3',
-    description: "Communication L3\n\nYou present work with polish and confidence. You lead meetings effectively, and could represent Figma well externally.\n\nYou're growing skills at conflict resolution.\n\nYour written communication is compelling and clear."
+    description: "Content Strategy & Messaging L3\n\nCreates content that aligns with product and user needs, contributes to content strategy\nCollaborates closely with other designers and PMs to ensure cohesive messaging\nParticipates in defining content guidelines for projects."
   },
-  { skill: 'Communication', 
+  { skill: 'Content Strategy & Messaging',
     level: '4',
-    description: "Communication L4\n\nYou're a strong storyteller and able to influence and persuade at any level of the organization (e.g. to executives).\n\nYou're able to communicate candidly and kindly, and build rapport with all kinds of work partners—even difficult stakeholders.\n\nYou coach other designers/writers on written, verbal, and interpersonal skills."
+    description: "Content Strategy & Messaging L4\n\nShapes content strategy, aligns messaging across user journeys\nProvides clear rationale for content decisions based on user needs\nSupports the team in understanding the role of content strategy."
   },
-  { skill: 'Communication', 
+  { skill: 'Content Strategy & Messaging',
     level: '5',
-    description: "Communication L5\n\nYou're an exceptional storyteller, and able to uplevel other designers/writers in this area and the team as a whole.\n\nInterpersonally, you deescalate conflict effectively and can smooth out thorny projects and push teams to alignment."
+    description: "Content Strategy & Messaging L5\n\nLeads content design initiatives, ensures strategic alignment of messaging\nIdentifies opportunities to enhance user engagement through content\nBalances business goals with user-centric messaging."
   },
-  { skill: 'Process', 
+  { skill: 'Content Strategy & Messaging',
+    level: '6',
+    description: "Content Strategy & Messaging L6\n\nDevelops content frameworks, influences cross-functional alignment on messaging\nEstablishes guidelines for how content fits into product design\nWorks on initiatives that scale content strategy across teams."
+  },
+  { skill: 'Content Strategy & Messaging',
+    level: '7',
+    description: "Content Strategy & Messaging L7\n\nSets the vision for content strategy, aligns cross-functional teams around a cohesive narrative\nDrives initiatives that elevate content quality and relevance\nAdvocates for content's role in driving business outcomes."
+  },
+  { skill: 'Content Strategy & Messaging',
+    level: '8',
+    description: "Content Strategy & Messaging L8\n\nInnovates content practices, establishes new standards for messaging and narrative\nDevelops frameworks for adaptive content that serves diverse user groups\nInfluences content strategy across the entire product portfolio."
+  },
+  { skill: 'Content Quality & Operations',
     level: '1',
-    description: "Process L1\n\nYou share work regularly and ask for feedback on your working style and on the work itself.\n\nYou triage feedback on your work and ensure follow-ups.\n\nYou work to resolve situations when you're not looped in at the right times."
+    description: "Content Quality & Operations L1\n\nLearns to review content for clarity, tone, and consistency.\nApplies guidance and content standards in their work.\nBegins to understand content review and localization workflows."
   },
-  { skill: 'Process', 
+  { skill: 'Content Quality & Operations',
     level: '2',
-    description: "Process L2\n\nYou have a clear process: it's easy for work partners to know your priorities and predict the cadence of your work.\n\nYou're starting to work more independently.\n\nYou know how to manage bandwidth, and speak up if your plate is full.\n\nYou triage feedback diligently; nothing falls through the cracks."
+    description: "Content Quality & Operations L2\n\nReviews content for quality and alignment with guidelines.\nCollaborates with peers to iterate and improve shared content.\nSupports localization by preparing content for handoff and reuse."
   },
-  { skill: 'Process', 
+  { skill: 'Content Quality & Operations',
     level: '3',
-    description: "Process L3\n\nYour process is adaptable and efficient.\n\nYou generate and maintain momentum. You handle feedback thoroughly and gracefully, and know when to change direction vs. staying the course.\n\nYou're becoming proficient at managing stakeholders and regularly work without close oversight."
+    description: "Content Quality & Operations L3\n\nProactively improves content clarity and alignment with standards.\nManages structured review processes to ensure consistency.\nPartners with PMs and localization to reduce friction and errors."
   },
-  { skill: 'Process', 
+  { skill: 'Content Quality & Operations',
     level: '4',
-    description: "Process L4\n\nYou influence process at the team level, and delegate well.\n\nYou handle high volumes of feedback on your own work effectively.\n\nYou're a model for stakeholder management, effectively managing executive involvement when necessary."
+    description: "Content Quality & Operations L4\n\nLeads content QA and streamlines feedback processes.\nEnsures quality across surfaces by driving scalable workflows.\nImproves localization readiness and cross-functional collaboration."
   },
-  { skill: 'Process', 
+  { skill: 'Content Quality & Operations',
     level: '5',
-    description: "Process L5\n\nYou coach other designers/writers on their process and uplevel the team as a whole.\n\nYou help create and influence our feedback culture at the company level.\n\nYou coach other designers on stakeholder management, especially with executives."
+    description: "Content Quality & Operations L5\n\nDesigns systems for content creation, review, and localization at scale.\nPartners with DesignOps and PMs to improve tools and workflows.\nCoaches others on efficient, high-quality content processes."
   },
-  { skill: 'Mindset', 
-    level: '1',
-    description: "Mindset L1\n\nYou're eager to help with whatever needs doing on projects—no job is too small."
+  { skill: 'Content Quality & Operations',
+    level: '6',
+    description: "Content Quality & Operations L6\n\nShapes org-wide content standards and governance practices.\nDrives initiatives that raise quality and efficiency through process.\nAnticipates and addresses scaling challenges in localization and reuse."
   },
-  { skill: 'Mindset', 
-    level: '2',
-    description: "Mindset L2\n\nYou maintain an open mindset toward changes and challenges, looking for how you can help and grow."
+  { skill: 'Content Quality & Operations',
+    level: '7',
+    description: "Content Quality & Operations L7\n\nInfluences how content workflows support product and team velocity.\nDrives operational excellence across teams through reusable patterns and tools.\nEstablishes global-ready processes that balance consistency and nuance."
   },
-  { skill: 'Mindset', 
-    level: '3',
-    description: "Mindset L3\n\nYou lead with resiliency in the face of challenges, and routinely help manage change for other team members.\n\nYou're a model for growth and resiliency on the team."
+  { skill: 'Content Quality & Operations',
+    level: '8',
+    description: "Content Quality & Operations L8\n\nLeads company-wide initiatives to optimize content operations.\nBuilds content infrastructure that supports multi-market delivery.\nDefines the role of content design systems at enterprise scale."
   },
-  { skill: 'Mindset', 
-    level: '4',
-    description: "Mindset L4\n\nYou're consistently solutions-oriented, and are acutely aware of your impact as a leader on the team, even in private settings.\n\nYou encourage others to maintain a healthy open mindset."
-  },
-  { skill: 'Mindset', 
-    level: '5',
-    description: "Mindset L5\n\nYou have a toolkit for managing change for other team members, and can help turn around significant morale issues on teams."
-  },
-  { skill: 'Effectiveness', 
-    level: '1',
-    description: "Effectiveness L1\n\nYou're building an understanding of the business and its goals.\n\nYour work aims to solve key user problems, and you're starting to connect your work to business goals.\n\nYou follow up post launch to assess your work's impact and effectiveness.\n\nYou file bugs when you spot quality issues."
-  },
-  { skill: 'Effectiveness', 
-    level: '2',
-    description: "Effectiveness L2\n\nYou understand how your work contributes to the business and prioritize accordingly.\n\nYou participate in roadmapping and planning conversations.\n\nYou address post launch issues and make suggestions to improve your impact.\n\nYou host bug bashes for your projects."
-  },
-  { skill: 'Effectiveness', 
-    level: '3',
-    description: "Effectiveness L3\n\nYou help drive roadmapping and planning conversations and have a deep understanding of how your work connects to business goals.\n\nYou work with appropriate urgency, consistently pushing projects forward.\n\nYou file bugs not only for your team but for other teams as well to prioritize quality."
-  },
-  { skill: 'Effectiveness', 
-    level: '4',
-    description: "Effectiveness L4\n\nYou push to make the highest impact possible with your work, and you can make a successful business case for it.\n\nYou start to take on projects outside of your core responsibilities.\n\nYou help your pillar with overall improvements to its quality control to be sure work is high quality and reliable."
-  },
-  { skill: 'Effectiveness', 
-    level: '5',
-    description: "Effectiveness L5\n\nYou help others understand the business.\n\nYou identify opportunities for design to create new value for the business and garner resources to act.\n\nYou frequently suggest and execute extra projects outside of core responsibilities.\n\nYou own the bar for quality at Figma."
-  },
-  { skill: 'Leadership', 
-    level: '1',
-    description: "Leadership L1\n\nYou help others by giving actionable feedback."
-  },
-  { skill: 'Leadership', 
-    level: '2',
-    description: "Leadership L2\n\nYou routinely help other designers/writers on the team grow, through your feedback or through skill shares.\n\nYou offer suggestions on how our product and processes can improve and help implement solutions."
-  },
-  { skill: 'Leadership', 
-    level: '3',
-    description: "Leadership L3\n\nYou're starting to uplevel other teammates skills through more formal coaching and mentorship (e.g. interns or more junior designers/writers).\n\nOthers actively seek your feedback, and listen to your guidance.\n\nYou drive initiatives that improve our team's workflows and the lives of other designers."
-  },
-  { skill: 'Leadership', 
-    level: '4',
-    description: "Leadership L4\n\nYou lead by example—never hesitating to get your hands dirty (e.g. riffing where helpful and guiding others toward action).\n\nYou've implemented and sometimes defined team processes like critiques and team meetings.\n\nYou are regularly sought out for mentorship even outside your team."
-  },
-  { skill: 'Leadership', 
-    level: '5',
-    description: "Leadership L5\n\nYou're a leader at Figma, with impact on the business and culture across the organization.\n\nYou uplevel other designers' leadership skills, building more design leaders within the organization."
-  },
-  { skill: 'Citizenship', 
-    level: '1',
-    description: "Citizenship L1\n\nYou volunteer to help out with team programs, like hosting warm-up.\n\nYou participate in company culture activities, like ERGs, Maker Week, or Show & Tell.\n\nYou attend FigNation to stay up to date on company activities."
-  },
-  { skill: 'Citizenship', 
-    level: '2',
-    description: "Citizenship L2\n\nYou suggest and implement team culture improvements.\n\nYou participate in some hiring activities, like interviewing candidates and sourcing jams.\n\nYou help plan team cultural initiatives, like offsites."
-  },
-  { skill: 'Citizenship', 
-    level: '3',
-    description: "Citizenship L3\n\nYou're an owner of our team culture, suggesting new rituals and activities to bring us together as a team.\n\nYou actively participate in hiring, whether through interviewing, sourcing, or suggesting improvements to our processes."
-  },
-  { skill: 'Citizenship', 
-    level: '4',
-    description: "Citizenship L4\n\nYou represent design as a leader to the rest of the organization, by giving feedback on process and culture or taking a leadership role in FigNation, Config, or other events."
-  },
-  { skill: 'Citizenship', 
-    level: '5',
-    description: "Citizenship L5\n\nYou represent Figma externally whether through conferences, blog posts, or other channels.\n\nYour work and presence attracts top talent to the organization; some people join Figma because they're excited to learn from you."
-  }
 ];
