@@ -21,7 +21,7 @@ type Category = {
 
 const coreCategory = {
   name: "Core",
-  color: "#007AA3",
+  color: "#005A9C",
   skills: [
     "Research",
     "Craft and delivery",
@@ -41,8 +41,8 @@ const coreCategory = {
 };
 
 const productCategory = {
-  name: "Product Design",
-  color: "#0E8A16",
+  name: "Product Designer",
+  color: "#00853E",
   skills: ["Domain Ownership", "User-Centered Problem Solving"],
   skillDescriptions: [
     "Deep knowledge of the product area",
@@ -51,8 +51,8 @@ const productCategory = {
 };
 
 const uiCategory = {
-  name: "UI",
-  color: "#9554CC",
+  name: "Design System Designer",
+  color: "#7F3FBF",
   skills: ["Interaction Design & Prototyping", "Visual Design & Aesthetics"],
   skillDescriptions: [
     "Interactive patterns and prototyping",
@@ -61,8 +61,8 @@ const uiCategory = {
 };
 
 const contentCategory = {
-  name: "Content Design",
-  color: "#D56300",
+  name: "Content Designer",
+  color: "#F27405",
   skills: ["Content Strategy & Messaging", "Content Quality & Operations"],
   skillDescriptions: [
     "Shaping product messaging",
@@ -78,11 +78,11 @@ function Widget() {
   const voteMap = useSyncedMap<number>("skill-level")
   const [userLevel, setUserLevel] = useSyncedState<number>('level', 1)
   const [showLevels, setShowLevels] = useSyncedState<boolean>("isShown", false)
-  const [role, setRole] = useSyncedState<string>("role", "Product Design")
+  const [role, setRole] = useSyncedState<string>("role", "Product Designer")
   const roleOptions = [
-    { option: "Product Design", label: "Product Design" },
-    { option: "UI", label: "UI" },
-    { option: "Content Design", label: "Content Design" }
+    { option: "Product Designer", label: "Product Designer" },
+    { option: "Content Designer", label: "Content Designer" },
+    { option: "Design System Designer", label: "Design System Designer" }
   ]
 
   usePropertyMenu(
@@ -121,7 +121,7 @@ function Widget() {
       effect={[
         {
           type: "drop-shadow",
-          color: "#9747FF0A",
+          color: "#7F3FBF0A",
           offset: {
             x: 0,
             y: 3,
@@ -132,7 +132,7 @@ function Widget() {
         },
         {
           type: "drop-shadow",
-          color: "#0D99FF0A",
+          color: "#0074C40A",
           offset: {
             x: 0,
             y: 2,
@@ -143,7 +143,7 @@ function Widget() {
         },
         {
           type: "drop-shadow",
-          color: "#14AE5C0A",
+          color: "#0095750A",
           offset: {
             x: 0,
             y: 1,
@@ -154,7 +154,7 @@ function Widget() {
         },
         {
           type: "drop-shadow",
-          color: "#FFD54B0D",
+          color: "#FFAA000D",
           offset: {
             x: 0,
             y: 0,
@@ -343,6 +343,11 @@ function Skill(
       width={250}
       height={716}
     >
+      <Rectangle
+        name={`Skill-Block-Bg-${name}`}
+        key={`Skill-Block-Bg-${skill_key}`}
+        opacity={0.2}
+        y={{ type: "bottom", offset: 1 }}
         fill={color}
         cornerRadius={6}
         width={250}
