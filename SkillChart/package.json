@@ -1,7 +1,7 @@
 {
   "name": "Skills-Chart",
   "version": "1.0.0",
-  "description": "Your Figma widget",
+  "description": "Phrase design competencies widget",
   "main": "code.js",
   "scripts": {
     "build": "esbuild code.tsx --bundle --outfile=code.js"
