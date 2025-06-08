@@ -415,43 +415,64 @@
     Text,
     SVG
   } = widget;
-  var strategyCategory = {
-    name: "Strategy",
-    color: "#9747FF",
-    skills: ["Product", "Research", "Vision"],
-    skillDescriptions: ["What we're building and why", "Qualitative and quantitative evidence", "Future pathways and how things fit together"]
-  };
-  var craftCategory = {
-    name: "Craft",
-    color: "#0D99FF",
-    skills: ["Visual", "Interaction", "Systems"],
-    skillDescriptions: ["How things look", "How things behave", "Underlying models, IAs, etc."]
-  };
-  var writingCraftCategory = {
-    name: "Writing",
-    color: "#0D99FF",
-    skills: ["Content", "Copywriting", "Systems\u200B", "Design"],
-    skillDescriptions: ["Figuring out what to write", "Finding the perfect words", "Building consistency and cohesion", "Developing your UX design chops"]
-  };
-  var collabCategory = {
-    name: "Collaboration",
-    color: "#14AE5C",
-    skills: ["Communication", "Process", "Mindset"],
-    skillDescriptions: ["Written, verbal, and interpersonal skills", "Resiliency and growth orientation", "Sharing work and incorporating feedback"]
-  };
-  var impactCategory = {
-    name: "Impact",
-    color: "#FFCD29",
-    skills: ["Effectiveness", "Leadership", "Citizenship"],
-    skillDescriptions: ["Output, follow-through, and business impact", "Mentorship, ability to influence and drive change", "Improving our culture, hiring, and company practices"]
-  };
-  var categories = [strategyCategory, craftCategory, writingCraftCategory, collabCategory, impactCategory];
+var coreCategory = {
+  name: "Core",
+  color: "#005A9C",
+  skills: [
+    "Research",
+    "Craft and delivery",
+    "Strategy",
+    "Leadership",
+    "Impact",
+    "Design Systems"
+  ],
+  skillDescriptions: [
+    "User and market understanding",
+    "Executing with quality",
+    "Vision and planning",
+    "Guiding others",
+    "Delivering results",
+    "Reusable patterns and components"
+  ]
+};
+var productCategory = {
+  name: "Product Designer",
+  color: "#00853E",
+  skills: ["Domain Ownership", "User-Centered Problem Solving"],
+  skillDescriptions: [
+    "Deep knowledge of the product area",
+    "Identifying and solving user problems"
+  ]
+};
+var uiCategory = {
+  name: "Design System Designer",
+  color: "#7F3FBF",
+  skills: ["Interaction Design & Prototyping", "Visual Design & Aesthetics"],
+  skillDescriptions: [
+    "Interactive patterns and prototyping",
+    "Creating visually compelling experiences"
+  ]
+};
+var contentCategory = {
+  name: "Content Designer",
+  color: "#F27405",
+  skills: ["Content Strategy & Messaging", "Content Quality & Operations"],
+  skillDescriptions: [
+    "Shaping product messaging",
+    "Ensuring scalable, high-quality content"
+  ]
+};
+var categories = [coreCategory, productCategory, uiCategory, contentCategory];
   function Widget() {
     const voteMap = useSyncedMap("skill-level");
     const [userLevel, setUserLevel] = useSyncedState("level", 1);
     const [showLevels, setShowLevels] = useSyncedState("isShown", false);
-    const [role, setRole] = useSyncedState("role", "Design");
-    const roleOptions = [{ option: "Design", label: "Design" }, { option: "Writing", label: "Writing" }];
+    const [role, setRole] = useSyncedState("role", "Product Designer");
+    const roleOptions = [
+      { option: "Product Designer", label: "Product Designer" },
+      { option: "Content Designer", label: "Content Designer" },
+      { option: "Design System Designer", label: "Design System Designer" }
+    ];
     usePropertyMenu([
       {
         itemType: "dropdown",
@@ -484,7 +505,7 @@
       effect: [
         {
           type: "drop-shadow",
-          color: "#9747FF0A",
+          color: "#7F3FBF0A",
           offset: {
             x: 0,
             y: 3
@@ -494,7 +515,7 @@
         },
         {
           type: "drop-shadow",
-          color: "#0D99FF0A",
+          color: "#0074C40A",
           offset: {
             x: 0,
             y: 2
@@ -504,7 +525,7 @@
         },
         {
           type: "drop-shadow",
-          color: "#14AE5C0A",
+          color: "#0095750A",
           offset: {
             x: 0,
             y: 1
@@ -514,7 +535,7 @@
         },
         {
           type: "drop-shadow",
-          color: "#FFD54B0D",
+          color: "#FFAA000D",
           offset: {
             x: 0,
             y: 0
