@@ -1,3 +1,7 @@
+# Phrase Design Competencies Widget
+
+This widget visualizes the Phrase design competency levels across eight levels.
+
 Below are the steps to get your widget running. You can also find instructions at:
 
 https://www.figma.com/widget-docs/setup-guide/
